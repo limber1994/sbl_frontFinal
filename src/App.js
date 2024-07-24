@@ -6,6 +6,8 @@ import Banco from './components/Banco';
 import SampleBooks from './components/SampleBooks';
 import BankbookTable from './components/BankbookTable';
 import ContentBankPage from './components/ContentBankPage'; // Importa el nuevo componente
+import AssignmentBankStudent from './components/AssignmentBankStudent'; // Importa el nuevo componente
+import AssignmentBankTeachers from './components/AssignmentBankTeachers'; // Importa el nuevo componente
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path="/banco" element={<Banco />} /> 
           <Route path="/samplebooks" element={<SampleBooks />} /> 
           <Route path="/bankbooktable" element={<BankbookTable />} />
-          <Route path="/contentbankpage" element={<ContentBankPage />} /> {/* Nueva ruta */}
+          <Route path="/contentbankpage" element={<ContentBankPage />} />
+          <Route path="/assignmentbankstudent" element={<AssignmentBankStudent />} />
+          <Route path="/assignmentbankteachers" element={<AssignmentBankTeachers />} />
         </Routes>
       </div>
     </Router>

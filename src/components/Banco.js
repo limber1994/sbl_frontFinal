@@ -13,7 +13,7 @@ const Banco = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/books">Banco</Nav.Link>
-              <Nav.Link href="#asignaciones">Asignaciones</Nav.Link>
+              <Nav.Link href="#/assignmentbankstudent">Asignaciones</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -27,6 +27,8 @@ const Banco = () => {
               <Button variant="link" href="Samplebooks">Ejemplares de libros</Button>
               <Button variant="link" href="BankbookTable">Bancos</Button>
               <Button variant="link" href="ContentBankPage">Contenido de bancos</Button>
+              <Button variant="link" href="AssignmentBankStudent">Asignaciones de Bancos Estudianntes</Button>
+              <Button variant="link" href="AssignmentBankTeachers">Asignaciones de Bancos Docentes</Button>
             </nav>
           </Col>
           <Col md={10}>
